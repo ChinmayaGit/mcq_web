@@ -45,3 +45,30 @@ textF(
     ),
   );
 }
+textFormOne(
+    {Icon? icon,
+      required String lName,
+      String? hName,
+      required TextEditingController controllers,
+      Icon? sIcon,
+      bool? numberShow,
+      bool? foc}) {
+  return Padding(
+    padding: const EdgeInsets.all(18.0),
+    child: TextFormField(
+      keyboardType: numberShow == true ? TextInputType.number : null,
+      autofocus: foc ?? false,
+      controller: controllers,
+      validator: (value) {
+        if (value!.isEmpty) return 'This field cannot be empty';
+        return null;
+      },
+      decoration: InputDecoration(
+        icon: icon,
+        hintText: hName,
+        labelText: lName,
+        suffixIcon: sIcon,
+      ),
+    ),
+  );
+}

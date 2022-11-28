@@ -3,15 +3,12 @@ import 'package:flutter/material.dart';
 
 class AddQue extends StatelessWidget {
    AddQue({Key? key}) : super(key: key);
+
   TextEditingController acontrollers = TextEditingController();
    TextEditingController bcontrollers = TextEditingController();
-
    TextEditingController ccontrollers = TextEditingController();
-
    TextEditingController dcontrollers = TextEditingController();
-
    TextEditingController anscontrollers = TextEditingController();
-
    TextEditingController quecontrollers = TextEditingController();
 
    @override

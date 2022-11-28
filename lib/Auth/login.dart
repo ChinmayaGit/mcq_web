@@ -124,17 +124,18 @@ class _LoginPageState extends State<LoginPage> {
                     child: Lottie.asset('assets/welcome.json'),
                   ),
                   textF(
-                      lName: 'Email',
-                      hName: 'Email',
+                      lName: 'UserName',
+                      hName: "",
                       controllers: _idController,
-                      hei: 40,
-                      wid: Get.width / 6),
+                      hei: 70,
+                      wid: Get.width / 5),
                   textF(
                       lName: 'Password',
-                      hName: 'Password',
+                      hName: '',
                       controllers: _passwordController,
-                      hei: 40,
-                      wid: Get.width / 6),
+                      hei: 70,
+                      wid: Get.width / 5),
+
                   GestureDetector(
                     onTap: () async{
                       // logIn(_idController.text,_passwordController.text,context);
