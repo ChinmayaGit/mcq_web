@@ -15,17 +15,17 @@ A few resources to get you started if this is your first Flutter project:
 
 Login Page:
 
-![Battery Powered Equipment's warranty](https://raw.githubusercontent.com/ChinmayaGit/mcq_web/main/screenshorts/1.jpg")
+![Page 1](https://raw.githubusercontent.com/ChinmayaGit/mcq_web/main/screenshorts/1.jpg")
 
 Create account Page:
 
-![Battery Powered Equipment's warranty](https://raw.githubusercontent.com/ChinmayaGit/mcq_web/main/screenshorts/2.jpg")
+![Page 2](https://raw.githubusercontent.com/ChinmayaGit/mcq_web/main/screenshorts/2.jpg")
 
 Mcq Page:
 
-![Battery Powered Equipment's warranty](https://raw.githubusercontent.com/ChinmayaGit/mcq_web/main/screenshorts/3.jpg")
+![Page 3](https://raw.githubusercontent.com/ChinmayaGit/mcq_web/main/screenshorts/3.jpg")
 
 Result Page:
 
-![Battery Powered Equipment's warranty](https://raw.githubusercontent.com/ChinmayaGit/mcq_web/main/screenshorts/4.jpg")
+![Page 4](https://raw.githubusercontent.com/ChinmayaGit/mcq_web/main/screenshorts/4.jpg")
 TODO: Project Finished
